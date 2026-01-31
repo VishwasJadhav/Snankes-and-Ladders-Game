@@ -1,78 +1,90 @@
-# Snakes-and-Ladders-Game
+# 🐍🎲 Snakes & Ladders – Python Console Game
 
-### About This Project
+A beginner-friendly Python implementation of the classic **Snakes & Ladders** game.  
+This repository documents my **learning progression**, starting from a basic single-player version and extending to a structured multiplayer game.
 
-This repository contains **two versions** of a Snakes & Ladders game built in Python.
-The project documents my learning journey, starting from a basic single-player game and progressing to a structured multiplayer version.
-
-#### The focus is on:
-- Unerstanding loops and Conditionals.
-- Using dictonaris for game rules.
-- Handling user input.
-- Managing game state logically.
 ---
 
-## Version 1: Single Player Game
-**Purpose:** Learning core Python fundamentals
-This version represents my initial learning stage in Python.
-It is a simple console-based Snakes & Ladders game with one player.
+## 📌 About the Project
 
-#### Concepts Practiced:
-- while loops
-- Conditional statements
-- Dictionaries (snakes, ladders)
-- Random number generation using NumPy
-- Basic input handling
+This project was built to practice **core Python fundamentals** and gradually improve code structure and game logic.
 
-#### Highlights:
-- Single player gameplay
+The repository contains **two versions** of the game:
+1. A **single-player version** (learning stage)
+2. A **multiplayer version** (improved logic and structure)
+
+---
+
+## 🧪 Version 1: Single-Player Game (Beginner Level)
+
+**Purpose:** Learning Python basics
+
+This version represents my **initial stage of learning Python**.  
+It is a simple console-based Snakes & Ladders game for one player.
+
+### Features
+- Single-player gameplay
 - Dice roll simulation
-- Snake & ladder movement logic
+- Snakes and ladders using dictionaries
 - Win condition at position 100
+- Exit option during gameplay
 
-**File:** 
+### Concepts Used
+- `while` loops
+- Conditional statements
+- Dictionaries
+- User input handling
+- Random number generation using NumPy
+
+📂 **File:** `snakes_ladders_single_player.py`
 
 ---
 
-## Version 2: Multiplayer Game
-**Purpose:** Applying structure, validation, and scalability
+## 🎮 Version 2: Multiplayer Game (Improved Version)
 
-This version extends the first game into a **multiplayer console game** with better structure and validation.
+**Purpose:** Applying better structure and scalability
 
-#### New Features:
+This version improves the game by supporting **multiple players** and cleaner logic.
+
+### New Features
 - Multiple players support
 - Player name input
 - Turn-by-turn rotation
-- Dynamic player removal on exit
-- Improved game flow and readability
+- Player exit handling during the game
+- Improved validation and flow
 
-#### Concepts Practiced:
+### Concepts Used
 - Lists of dictionaries for player state
-- Modulo logic for turn rotation
-- 
+- Input validation
+- Modulo-based turn rotation
+- Better separation of game logic
 
+📂 **File:** `snakes_ladders_multiplayer.py`
 
+---
 
+## 🧠 What I Learned
+- Translating real-world game rules into code
+- Managing game state across multiple players
+- Writing cleaner and more readable Python logic
+- Improving beginner code step by step
 
+---
 
+## 🔧 Tech Stack
+- Python
+- NumPy (for dice rolling)
 
+---
 
+## 🚀 Possible Future Improvements
+- Use Python’s built-in `random` module instead of NumPy
+- Add a visual board representation
+- Add replay option
+- Convert the game into an Object-Oriented (OOP) version
 
+---
 
-
-Lists of dictionaries for player state
-
-
-Input validation
-
-Cleaner separation of game logic
-
-
-
-
-
-
-
-
-
-
+## 🏁 Note
+This project is **learning-focused**, showing progression rather than perfection.  
+Suggestions and feedback are welcome.
