@@ -63,8 +63,8 @@ In this version, I enhanced the original game to support **multiple players**, w
 - Player name input and validation
 - Turn-by-turn gameplay using index rotation
 - Individual position tracking for each player
+- Early exit for individual player
 - Dynamic handling when a player exits the game
-- Cleaner and more readable game loop
 
 ### What Changed Technically
 - Introduced a **list of dictionaries** to store player data (`name` and `position`)
@@ -78,7 +78,7 @@ In this version, I enhanced the original game to support **multiple players**, w
 - Modulo-based turn control
 - Writing scalable procedural logic
 
-📂 **File:** `snakes_ladders_multiplayer.py`
+📂 **File:** `[snakes_ladders_multiplayer.py](https://github.com/VishwasJadhav/Snankes-and-Ladders-Game/blob/main/Snakes_and_Ladders_Multiplayer.ipynb)`
 
 ---
 
