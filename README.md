@@ -78,7 +78,7 @@ In this version, I enhanced the original game to support **multiple players**, w
 - Modulo-based turn control
 - Writing scalable procedural logic
 
-📂 **File:** `[snakes_ladders_multiplayer.py](https://github.com/VishwasJadhav/Snankes-and-Ladders-Game/blob/main/Snakes_and_Ladders_Multiplayer.ipynb)`
+📂 **File:** [snakes_ladders_multiplayer.ipynb](https://github.com/VishwasJadhav/Snankes-and-Ladders-Game/blob/main/Snakes_and_Ladders_Multiplayer.ipynb)
 
 ---
 
