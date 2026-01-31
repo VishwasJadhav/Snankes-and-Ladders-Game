@@ -1,0 +1,40 @@
+import numpy as np
+
+print("WELCOME TO THE SNAKES & LADDERS GAME\n")
+print("""You can press Enter to start the game.
+To exit at anytime just enter 'EXIT'.""")
+
+ladders = {1:38,4:14,8:30,21:42,28:74,35:79,50:67,71:92,88:98}
+snakes = {22:3,32:10,36:6,48:26,63:18,82:24,95:56,97:88,99:27}
+
+player = 0
+
+while True:
+
+    roll_dice = input(f"\n--Press Enter to Roll Dice--")
+
+    if roll_dice.lower() == "exit":
+        print("\nThanks For Playing!!")
+        break
+        
+    dice = np.random.randint(1,7)
+    print(f"Dice Rolled: {dice}")
+     
+    player = player + dice
+    
+    if player > 100:
+        player = player - dice
+        print(f"Try Again, You are still on {player}")
+        continue
+        
+    print(f"You are on: {player}")
+    
+    if player in ladders:
+        player = ladders[player]
+        print(f"Moving up to: {player}")
+    elif player in snakes:
+        player = snakes[player]
+        print(f"Moving down to : {player}")
+    elif player == 100:
+        print("Congrats You Won!!")
+        break
