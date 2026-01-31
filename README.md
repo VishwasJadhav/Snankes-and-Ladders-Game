@@ -48,7 +48,7 @@ It focuses on implementing the core rules of Snakes & Ladders for a single playe
 - Input handling
 - Basic game flow control
 
-📂 **File:** [snakes_ladders_single_player.ipynb](https://github.com/VishwasJadhav/Snankes-and-Ladders-Game/blob/main/Snakes_and_Ladders_SinglePlayer.ipynb)
+📂 **File:** [Snakes_Ladders_Single_Player.ipynb](https://github.com/VishwasJadhav/Snankes-and-Ladders-Game/blob/main/Snakes_and_Ladders_SinglePlayer.ipynb)
 
 ---
 
@@ -78,7 +78,7 @@ In this version, I enhanced the original game to support **multiple players**, w
 - Modulo-based turn control
 - Writing scalable procedural logic
 
-📂 **File:** [snakes_ladders_multiplayer.ipynb](https://github.com/VishwasJadhav/Snankes-and-Ladders-Game/blob/main/Snakes_and_Ladders_Multiplayer.ipynb)
+📂 **File:** [Snakes_Ladders_Multiplayer.ipynb](https://github.com/VishwasJadhav/Snankes-and-Ladders-Game/blob/main/Snakes_and_Ladders_Multiplayer.ipynb)
 
 ---
 
