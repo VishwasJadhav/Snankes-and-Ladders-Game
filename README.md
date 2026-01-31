@@ -48,7 +48,7 @@ It focuses on implementing the core rules of Snakes & Ladders for a single playe
 - Input handling
 - Basic game flow control
 
-📂 **File:** `[snakes_ladders_single_player.py](https://github.com/VishwasJadhav/Snankes-and-Ladders-Game/blob/main/Vishwas%20Jadhav%20Resume.pdf)`
+📂 **File:** [snakes_ladders_single_player.py](https://github.com/VishwasJadhav/Snankes-and-Ladders-Game/blob/main/Vishwas%20Jadhav%20Resume.pdf)
 
 ---
 
